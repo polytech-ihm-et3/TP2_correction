@@ -66,4 +66,3 @@ L'interface de ce sélecteur de fichier doit contenir :
     - si l'élément sélectionné n'est ni un fichier, ni un répertoire : aucun effet.
 
 10. Améliorez votre implémentation pour qu'un double clique sur un élement de la liste navigable ait le même effet qu'un clique sur le bouton "Open", après avoir sélectionné ce même élément.
-# TP2_correction
