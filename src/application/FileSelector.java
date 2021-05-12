@@ -6,7 +6,6 @@ import java.util.ArrayList;
 
 public class FileSelector extends DialogPane 
 {
-	private String currentDirectory = null ;
 	private ArrayList<String> listContent;
 	private ArrayList<String> listParentDirectories;
 	
@@ -33,9 +32,6 @@ public class FileSelector extends DialogPane
 		{
 			return null ;
 		}
-		
-		//Si un dossier existe, on le définit comme dossier courant 
-		currentDirectory = pathDirectory.getAbsolutePath();
 		
 		String parentDirectoryPath = "";
 		listParentDirectories.clear();
@@ -70,9 +66,6 @@ public class FileSelector extends DialogPane
 		{
 			return null ;
 		}
-		
-		//Si un dossier existe, on le définit comme dossier courant 
-		currentDirectory = pathDirectory.getAbsolutePath();
 		
 		//On liste les éléments du dossier
 		String[] files = pathDirectory.list() ;

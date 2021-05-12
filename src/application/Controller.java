@@ -17,7 +17,8 @@ public class Controller
     @FXML
     private Button btnOpen;
 
-    @FXML
+    @SuppressWarnings("rawtypes")
+	@FXML
    private  ListView listViewFile;
 
     @FXML
@@ -97,7 +98,8 @@ public class Controller
     }
     
     //Mettre à jour la ListView
-    public void majListView(String path)
+	@SuppressWarnings("unchecked")
+	public void majListView(String path)
     {
     	if (comboxRep.getSelectionModel().getSelectedItem() != null )
     	{
