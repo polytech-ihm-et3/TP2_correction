@@ -1,6 +1,6 @@
 Programmation Java @ Et3
 <br>
-Polytech Paris-Saclay | 2020-21
+Polytech Paris-Saclay | 2024-25
 
 ___
 
@@ -15,25 +15,7 @@ L'interface de ce sélecteur de fichier doit contenir :
   - une liste navigable (cf. [*ListeView*](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/ListView.html)), qui montre le contenu du dossier courant (les noms des sous-dossiers sont suivis pas un slash `/`); 
   - deux boutons (cf. [*Button*](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/Button.html)), "Cancel" (pour fermer l'application) et "Open" (pour ouvrir un dossier sélectionné).
 
-1. Télécharger [*Scene Builder*](https://gluonhq.com/products/scene-builder/). Ce programmee permet de creer des fenêtres JavaFX plus facilement.
-
-> Une fois le programme téléchargé, une simple manipuulation vous permet de l'appeler depuis votre IDE.
-
-> Pour associer *Scene Builder* à Eclipse, suivez les étapes suivantes :
->   1) Ouvrez la fenêtre des préférences (*Window* > *Preferences*);
->   2) Sélectionnez l'onglet *JavaFX*;
->   3) Dans *SceneBuilder executable*, entrez le chemin jusqu'à l'éxécutable de *Scene Builder*;
->   4) Validez en cliquant sur *Apply and Close*;
->   
-> Il vous suffira alors d'effectuer un clic droit sur un fichier *fxml*, puis de cliquer sur *Open with SceneBuilder* pour éditer votre fichier avec *Scene Builder*.
-
-> Pour associer *Scene Builder* à IntelliJ, suivez les étapes suivantes :
->   1) Ouvrez la fenêtre des paramètres (*File* > *Settings...*);
->   2) Sélectionnez l'onglet *Languages & Frameworks*, puis l'onglet *JavaFX*;
->   3) Dans *Path to SceneBuilder:*, entrez le chemin jusqu'à l'éxécutable de *Scene Builder*;
->   4) Validez en cliquant sur *Apply*, puis sur *OK*;
->   
-> Il vous suffira alors d'effectuer un clic droit sur un fichier *fxml*, puis de cliquer sur *Open In SceneBuilder* pour éditer votre fichier avec *Scene Builder*.
+1. [*Scene Builder*](https://gluonhq.com/products/scene-builder/) est un programme permet de créer des fenêtres JavaFX plus facilement. Suivez ces instructions (https://github.com/polytech-ihm-et3/HowToUseSceneBuilderWithIDE) pour l'installer et le configurer avec votre IDE.
 
 2. Créez un projet javaFX.
 

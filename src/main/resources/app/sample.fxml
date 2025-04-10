@@ -10,7 +10,7 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" 
 prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" 
-fx:controller="application.Controller" xmlns:fx="http://javafx.com/fxml/1">
+fx:controller="app.Controller" xmlns:fx="http://javafx.com/fxml/1">
    <top>
       <ComboBox id="comboxRep" fx:id="comboxRep" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER" />
    </top>
