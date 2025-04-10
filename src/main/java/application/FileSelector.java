@@ -1,4 +1,4 @@
-package app;
+package application;
 
 import javafx.scene.control.DialogPane;
 import java.io.File;
@@ -34,8 +34,8 @@ public class FileSelector extends DialogPane {
 		listParentDirectories.clear();
 
 		// On divise le chemin grâce à un séparateur
-		String[] directories = path.split("\\" + File.separator); // Version Windows
-		// String[] directories = path.split(File.separator); //Version Mac/Linux
+		// String[] directories = path.split("\\" + File.separator); // Version Windows
+		String[] directories = path.split(File.separator); // Version Mac/Linux
 
 		// On récupère les dossiers parents en ajoutant les éléments du chemin au fur et
 		// à mesure
